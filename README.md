@@ -16,11 +16,12 @@
 
 ## Imatges de referència
 <div align="center">
-  <img src="imatges-BdN/bdn1.png" alt="Imatge 1" width="200"/>
-  <img src="imatges-BdN/bdn2.png" alt="Imatge 2" width="200"/>
-  <img src="imatges-BdN/bdn3.png" alt="Imatge 3" width="200"/>
-  <img src="imatges-BdN/bdn4.png" alt="Imatge 4" width="200"/>
-  <img src="imatges-BdN/bdn5.png" alt="Imatge 5" width="200"/>
+  <img src="imatges-bdn/bdn-1.png" alt="Imatge 1" width="200"/>
+  <img src="imatges-bdn/bdn-2.png" alt="Imatge 2" width="200"/>
+  <img src="imatges-bdn/bdn-3.png" alt="Imatge 3" width="200"/>
+  <img src="imatges-bdn/bdn-4.png" alt="Imatge 4" width="200"/>
+  <img src="imatges-bdn/bdn-5.png" alt="Imatge 5" width="200"/>
+  <img src="imatges-bdn/bdn-6.png" alt="Imatge 5" width="200"/>
 </div>
 
 <br>
