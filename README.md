@@ -9,8 +9,9 @@
 <br>
 
 ## Objectiu del Repte
-...
-...
+Aquest repte consisteix en desenvolupar una aplicació de bloc de notes, clonant la funcionalitat de l'aplicació Notas d'Android. L'objectiu és crear una interfície que permeti als usuaris crear, editar, esborrar i seleccionar notes de manera senzilla. A més, la informació de les notes es guardarà localment en el navegador, utilitzant el `localStorage`, per garantir que les notes persistin fins i tot després de tancar o actualitzar la pàgina.
+
+Per conèixer l'aparença a dissenyar seguirem la guia de la presentació amb les imatges a continuació, que detallen la interfície de l'aplicació, la seva funcionalitat i el seu aspecte visual.
 
 <br>
 
@@ -24,12 +25,12 @@
   <img src="imatges-bdn/bdn-6.png" alt="Imatge 5" width="200"/>
 </div>
 
-<br>
-
 ## Funcionalitats Principals
-- ...
-- ...
-- ...
+- **Crear Notes**: Permet crear noves notes amb un títol i un contingut personalitzat.
+- **Editar Notes**: Al fer clic sobre una nota, s'obre un editor per actualitzar el seu contingut.
+- **Esborrar Notes**: Les notes es poden esborrar amb un simple clic.
+- **Seleccionar Notes**: Les notes es poden seleccionar per realitzar accions com editar o esborrar.
+- **Emmagatzematge Local**: Les notes es guarden en `localStorage`, permetent mantenir-les fins i tot després de tancar o actualitzar la pàgina.
 
 <br>
 
