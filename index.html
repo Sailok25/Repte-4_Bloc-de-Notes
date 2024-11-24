@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de Notas</title>
+    <link rel="icon" type="image/x-icon" href="img/icon-app.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estils.css">
+    <link rel="stylesheet" href="css/icones.css">
+</head>
+
+<body>
+    <div id="all">
+        <section id="cabecera">
+            <div id="contenido-titulo">
+                <div id="titol">
+                    <h2>Notas</h2>
+                    <span class="material-symbols--keyboard-arrow-down"></span>
+                </div>
+                <span class="mdi--dots-vertical"></span>
+            </div>
+            <div id="buscador">
+                <span class="material-symbols--search"></span>
+                <input type="text" id="buscarNota" onkeyup="filtrarNotas()" placeholder="Buscar per títol, contingut...">
+            </div>
+        </section>        
+
+        <section id="notas">
+            <div id="izquierda">
+                <div class="nota">
+                </div>
+            </div>
+            <div id="derecha"></div>
+        </section>
+
+        <!-- Botón con la imagen -->
+        <div id="nuevanota" onclick="crearNovaNota()">
+            <span class="ic--baseline-plus"></span>
+        </div>
+    </div>
+    <script src="js/funcions.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+<span class="material-symbols--close"></span> cruz cerrar
+
+<span class="material-symbols--format-list-bulleted"></span> 3 puntos lista
+
+<span class="material-symbols--lock-outline"></span> candado
+
+<span class="material-symbols-light--upload-rounded"></span> bandeja de salida (mandar)
+
+<span class="mdi--arrow-all"></span> flecha todas direcciones 
+
+-->

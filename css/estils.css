@@ -1,0 +1,209 @@
+/* Apartat dels estils generals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background-color: #fafafafa;
+}
+
+#all {
+    padding: 1.6rem;
+}
+
+#contingutNota {
+    padding: 2rem;
+    background-color: white;
+}
+
+#cabecera {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+#contenido-titulo img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#contenido-titulo {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2rem 0 0;
+}
+
+#titol {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#titol h2 {
+    font-size: 2rem;
+    font-family: "Roboto Condensed", serif;
+}
+
+#titol img {
+    width: 1rem;
+    height: 1rem;
+}
+
+#buscador {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ebebeb;
+    border-radius: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+#buscador input {
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", serif;
+    color: gray;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+#nuevanota {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+#notas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#izquierda,
+#derecha {
+    width: 48%;
+}
+
+.nota {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    gap: 5px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.nota h2 {
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", serif;
+    color: black;
+}
+
+.nota p {
+    font-size: 1.2rem;
+    font-family: "Roboto Condensed", serif;
+    color: #8b8b8b;
+    max-height: 4rem;
+}
+
+#temps {
+    font-size: 8px;
+    font-family: "Roboto Condensed", serif;
+    color: #8b8b8b;
+}
+
+
+
+
+/* Estils contingutNota */
+#crear-nota{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#info img{
+    width: 3rem;
+    height: 3rem;
+}
+
+#control-temps {
+    display: flex;
+    flex-direction: row;
+}
+
+#control-temps p{
+    font-size: 1.1rem;
+    color: #959292;
+    font-family: 'Roboto Condensed', serif;
+}
+
+
+
+#editor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+#titulo-nota {
+    font-size: 2rem;
+    font-family: "Roboto Condensed", serif;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+#contenido-nota {
+    flex: 1;
+    font-size: 1.6rem;
+    font-family: "Roboto Condensed", serif;
+    border: none;
+    outline: none;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+/* Para ocultar la barra de scroll*/
+#contenido-nota::-webkit-scrollbar {
+    width: 0;
+}
+
+#footer2{
+    width: auto;
+    border: 2px solid #4CAF50;
+    
+}

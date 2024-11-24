@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de Notas</title>
+    <link rel="icon" type="image/x-icon" href="img/icon-app.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/estils.css">
+    <link rel="stylesheet" href="css/icones.css">
+</head>
+
+<body>
+    <div id="contingutNota">
+        <section id="crear-nota">
+            <div id="info">
+                <span class="ic--baseline-arrow-back-ios" onclick="enrereGuardar()"></span>
+                <div id="control-temps">
+                    <p id="data-hora"></p>
+                    <p id="caracters"></p>
+                </div>
+            </div>
+            <div id="editor">
+                <input type="text" id="titulo-nota" placeholder="Título de la nota" required>
+                <textarea id="contenido-nota" placeholder="Escribe tu nota..."></textarea>
+            </div>
+        </section>
+        <script src="js/funcions.js"></script>
+    </div>
+
+    <footer id="footer2">
+        <p>text de prova</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- 
+<span class="ic--outline-photo"></span> galeria
+
+<span class="material-symbols--check-box-outline"></span> checkbox
+
+<span class="mdi--tshirt-crew"></span> tshirt
+
+<span class="mdi--format-text"></span> t lletra
+
+<span class=".mdi--access-point"></span> radio
+-->
